@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Change to space-between to separate logo and buttons */
+    align-items: center;
+    padding-top: 20px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-family: roboto;
+    font-weight: 1000;
+    color: #2a756e;
+    margin-left: 20px; 
+  }
+  
+  .color-button {
+    padding: 8px 24px;
+    background-color: #000000;
+    border: white;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .color-button.dark-mode {
+    background-color: white;
+    color: black;
+  }

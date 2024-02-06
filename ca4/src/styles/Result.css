@@ -1,0 +1,29 @@
+.result-box {
+    background-color: #95a08d;
+    padding: 20px;
+    height: 35vh;
+    width: 30vw;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .result-header {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  
+  .result-summary {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .restart-button {
+    padding: 8px 16px;
+    background-color: green;
+    border: none;
+    border-radius: 9px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+  }
